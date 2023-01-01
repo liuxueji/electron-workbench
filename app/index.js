@@ -1,7 +1,11 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
+const startServer = require('./server/bin/www')
 
 function createWindow () {
+  // 创建electron窗口启动express
+  startServer()
+  
   const win = new BrowserWindow({
     width: 800,
     height: 600,
