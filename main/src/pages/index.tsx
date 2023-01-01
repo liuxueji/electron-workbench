@@ -1,9 +1,12 @@
 import './index.less'
+import MainMenu from '@/pages/MainMenu';
+import TaskList from '@/pages/TaskList';
 
 export default function IndexPage() {
   return (
-    <div>
-      <h1 className="title">Page index</h1>
+    <div className="page container">
+      <MainMenu/>
+      <TaskList/>
     </div>
   );
 }

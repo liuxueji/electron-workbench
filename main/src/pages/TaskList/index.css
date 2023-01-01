@@ -1,0 +1,5 @@
+.task-list-wrapper {
+  flex: 1;
+  height: 100%;
+  background-color: #eee;
+}
