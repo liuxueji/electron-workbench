@@ -1,5 +1,13 @@
-.task-list-wrapper {
+.task-list {
   flex: 1;
   height: 100%;
+  width: 100%;
   background-color: #eee;
+  padding: 20px;
+}
+.task-list-wrapper {
+  height: 90%;
+  width: 100%;
+  overflow: auto;
+  border: 1px solid #ccc;
 }
