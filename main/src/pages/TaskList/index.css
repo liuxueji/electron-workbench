@@ -5,9 +5,29 @@
   background-color: #eee;
   padding: 20px;
 }
+.task-list .add-task-btn {
+  padding: 10px;
+  font-size: 24px;
+}
+.task-list .add-task-btn .plus-icon {
+  cursor: pointer;
+}
+.task-list .add-task-btn .input {
+  height: 40px;
+  margin-left: 10px;
+}
+.task-list .ant-tag {
+  cursor: pointer;
+}
 .task-list-wrapper {
   height: 90%;
   width: 100%;
   overflow: auto;
+}
+.task-list .add-task-btn {
+  width: 100%;
+  height: 100px;
   border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
 }
